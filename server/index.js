@@ -25,8 +25,8 @@ app.use(require('body-parser').json())
 
 app.use('/', express.static(__dirname + '/../client'));
 
-app.get('/torrents', getTorrents)
-app.get('/torrents/:id', sendTorrentFile)
+app.get('/api/torrents', getTorrents)
+app.get('/api/torrents/:id', sendTorrentFile)
 
 function getTorrents (req, res, next) {
   files.find().toArray((err, items) => {
