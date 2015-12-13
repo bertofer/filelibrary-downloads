@@ -1,0 +1,48 @@
+@import "file_icons";
+
+body {
+  background-color: #eeeeee;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+#list-container {
+  position:relative;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.navbar-brand {float:none;}
+
+.navbar  {
+  margin-bottom: 0px;
+}
+
+.item-element {
+  float:left;
+  margin-left: 20px;
+}
+
+.list-group {
+  .row {
+    margin: 0px;
+  }
+  .item-arrow {
+    margin-top: 22px;
+  }
+  .btn {
+    margin-top: 15px;
+  }
+}
+
+.row {
+  margin-top: 25px;
+}

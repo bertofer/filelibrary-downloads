@@ -1,0 +1,55 @@
+{
+  "name": "filelibrary-downloads",
+  "version": "0.1.0",
+  "description": "Web page to download files uploaded with filelibrary",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertofer/filelibrary-downloads.git"
+  },
+  "keywords": [
+    "bittorrent",
+    "torrent",
+    "webtorrent",
+    "peertopeer",
+    "webrtc"
+  ],
+  "author": "Alberto Fernández",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bertofer/filelibrary-downloads/issues"
+  },
+  "homepage": "https://github.com/bertofer/filelibrary-downloads#readme",
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "browserify": "^11.2.0",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-env": "^0.2.0",
+    "gulp-ng-constant": "^1.1.0",
+    "gulp-node-debug": "0.0.3",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-sass": "^2.0.4",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.4.7",
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "file-extension": "^2.0.1",
+    "lodash": "^3.10.1",
+    "mongodb": "^2.0.46",
+    "ngprogress": "^1.1.1",
+    "parse-torrent": "^5.4.0",
+    "prettysize": "0.0.3",
+    "stream-http": "^2.0.2",
+    "webtorrent": "^0.62.3"
+  }
+}
